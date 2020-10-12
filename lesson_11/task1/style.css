@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: skew(-30deg);
+}
+li {
+    background: rgb(5, 5, 73);
+    list-style: none;
+    margin: 5px;
+    padding: 5px 15px;
+}
+a {
+    display: block;
+    transform: skew(30deg);
+    text-decoration: none;
+    color: yellow;
+}
+li:hover {
+    background: black;
+}
